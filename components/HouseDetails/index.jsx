@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { Col, Row, BackTop } from '@douyinfe/semi-ui';
 import { IconArrowLeft, IconArrowUp } from '@douyinfe/semi-icons';
-import { getHouseInfo } from '../../api/request';
-import { useRequest } from 'ahooks';
 // import ModeSwitch from './ModeSwitch';
 import HouseCarousel from './HouseCarousel';
 import HouseData from './HouseData';
@@ -15,13 +13,13 @@ import HouseSource from './HouseSource';
 import HouseNeighborSource from './HouseNeighborSource';
 import HouseFooter from './HouseFooter';
 
-function noop(){
-  return {}
+function noop() {
+  return {};
 }
 
-const useNavigate = noop
-const useLocation = noop
-const useParams = noop
+const useNavigate = noop;
+const useLocation = noop;
+const useParams = noop;
 
 import axios from 'axios';
 
@@ -68,10 +66,8 @@ export default function HomeDetail(props) {
   //   loadingDelay: 100,
   // });
 
-  const loading = false
-
-  const data = props.data.data
-  // console.log(data)
+  const loading = false;
+  const data = props.data.data;
 
   useEffect(() => {
     setTimeout(() => {

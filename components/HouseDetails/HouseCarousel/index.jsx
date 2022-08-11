@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel, Skeleton } from '@douyinfe/semi-ui';
 
-
 export default class HouseCarousel extends React.Component {
   constructor(props) {
     super(props);

@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Row, Skeleton } from '@douyinfe/semi-ui';
 import { GirlAvatar, MessageIcon, PhoneIcon } from '../Icon';
 
-
 export default function HouseManager(props) {
   const { loading } = props;
   return (

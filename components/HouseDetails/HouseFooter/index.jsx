@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Row, Skeleton } from '@douyinfe/semi-ui';
 import { GirlAvatar, IDCardIcon } from '../Icon';
 
-
 export default function HouseFooter(props) {
   const { loading } = props;
   return (

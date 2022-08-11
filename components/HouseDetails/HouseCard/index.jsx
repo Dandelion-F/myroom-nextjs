@@ -2,7 +2,6 @@ import React from 'react';
 import { Row, Col, Card } from '@douyinfe/semi-ui';
 import { Link } from 'react-router-dom';
 
-
 export default function HomeCard() {
   return (
     <Row gutter={[16, 16]}>

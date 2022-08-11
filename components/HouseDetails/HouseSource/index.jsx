@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row, Skeleton } from '@douyinfe/semi-ui';
 
 function Card() {
-  return null
+  return null;
 }
 
 export default function HouseSource(props) {

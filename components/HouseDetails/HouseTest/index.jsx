@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Row, Skeleton } from '@douyinfe/semi-ui';
 
-
 export default function HouseTest(props) {
   const { loading } = props;
   return (

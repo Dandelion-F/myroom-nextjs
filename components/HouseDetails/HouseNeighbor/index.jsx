@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Row, Tabs, TabPane, Skeleton } from '@douyinfe/semi-ui';
 import { BusIcon } from '../Icon';
 
-
 export default function HouseNeighbor(props) {
   const { loading } = props;
   return (

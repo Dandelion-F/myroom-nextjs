@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Row, Skeleton } from '@douyinfe/semi-ui';
 import { ChampionIcon, LineChartIcon, BoyAvatar } from '../Icon';
 
-
 export default function HouseAssess(props) {
   const { loading } = props;
   return (

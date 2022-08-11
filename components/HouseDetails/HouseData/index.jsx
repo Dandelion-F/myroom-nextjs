@@ -7,7 +7,6 @@ import {
   QualificationIcon,
 } from '../Icon';
 
-
 /**
  *
  * @param {object} props

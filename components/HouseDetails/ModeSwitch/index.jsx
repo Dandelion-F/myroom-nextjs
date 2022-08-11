@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default function ModeSwitch() {
   window.addEventListener('scroll', function () {
     if (window.scrollY > 200) {

@@ -11921,7 +11921,7 @@ body.video-react-full-window .video-react-fullscreen {
 }
 .landscape {
   display: inline-block;
-  background-image: url(/assets/fake-1.36f82ae6.png);
+  background-image: url(/houseDetail/fake-1.png);
   width: 80px;
   height: 80px;
   background-size: 100%;
@@ -12018,7 +12018,7 @@ body.video-react-full-window .video-react-fullscreen {
 }
 .map {
   height: 200px;
-  background-image: url(/assets/fake-2.98ca8834.png);
+  background-image: url(/houseDetail/fake-2.png);
   background-size: cover;
   background-position: center center;
 }
@@ -12069,7 +12069,7 @@ body.video-react-full-window .video-react-fullscreen {
 }
 .line-chart {
   height: 180px;
-  background-image: url(/assets/fake-3.ee69f2de.png);
+  background-image: url(/houseDetail/fake-3.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
